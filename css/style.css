@@ -46,19 +46,16 @@ a, a:visited {
 a:hover {
   text-decoration: none; }
 
-ul li {
-  list-style: none; }
+ul {
+  padding: 0;
+  margin-left: 1.2rem; }
 
 img {
   vertical-align: top; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400; }
-
 /*--------------------*/
 body {
-  background-color: #96d8eb;
+  background-color: #FFE5CB;
   font-family: 'Montserrat', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +66,7 @@ body {
   height: auto; }
 
 .header {
-  background-color: #96d8eb;
+  background-color: #B784A1;
   position: fixed;
   top: 0;
   left: 0;
@@ -134,7 +131,7 @@ body {
     line-height: 150%;
     font-size: 1.2rem; }
   .note__main {
-    background-color: #D2F3A4; }
+    background-color: #DFB5F6; }
   .note textarea {
     resize: none;
     outline: none; }

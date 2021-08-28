@@ -28,13 +28,12 @@ button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
-ul li{list-style: none;}
+ul{padding: 0;margin-left: 1.2rem;}
 img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 body{
-    background-color: #96d8eb;
+    background-color: #FFE5CB;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +42,7 @@ body{
 }
 
 .header{
-    background-color: #96d8eb;
+    background-color: #B784A1;
     position: fixed;
     top: 0;
     left: 0;
@@ -104,7 +103,7 @@ body{
         font-size: 1.2rem;
     }
     &__main{
-        background-color: #D2F3A4;
+        background-color: #DFB5F6;
 
     }
     textarea{
